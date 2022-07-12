@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*", "*"]
+    }
+  },
+  "typeAcquisition": {
+   "enable": true,
+   "include": [ "node"]
+ }
+}
